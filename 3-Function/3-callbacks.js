@@ -3,7 +3,7 @@
 //? è possibile passare come argomento di una funzione, un'altra funzione (il suo risultato)
 
 function sayHelp(hero) {
-  console.log("Help ${hero}");
+  console.log(`Help ${hero}`);
 }
 function callBestHero(caller) {
   const hero = "Batman";
